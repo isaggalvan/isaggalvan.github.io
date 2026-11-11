@@ -441,16 +441,9 @@ html.eco #hint{animation:none}
 html.eco #bub.on{animation:bpop .55s cubic-bezier(.2,1.4,.4,1) forwards}
 @media(min-width:1000px) and (max-width:1199px){#handle{font-size:clamp(20px,1.95vw,50px)}}
 
-/* crédito "by Rota" */
-.byrota{position:fixed;left:50%;bottom:max(3px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:6;display:flex;align-items:center;gap:5px;font:600 10px/1 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;letter-spacing:.08em;color:inherit;opacity:.6;text-decoration:none;white-space:nowrap;padding:3px 6px;-webkit-tap-highlight-color:transparent;transition:color .2s,opacity .2s}
-.byrota:hover,.byrota:focus-visible{color:#ffd60a;opacity:1;text-shadow:0 0 3px rgba(0,0,0,.35)}
-.byrota:hover svg,.byrota:focus-visible svg{filter:drop-shadow(0 0 1.5px rgba(0,0,0,.45))}
-.byrota .wm{display:inline-flex;align-items:center;font-size:13px;font-weight:800;letter-spacing:-.01em}
-.byrota svg{width:8px;height:10.5px;fill:currentColor;flex:none;margin:0 .5px}
 </style>
 </head>
 <body>
-<a class="byrota" href="https://amarildoazj.github.io/rota/" target="_blank" rel="noopener" aria-label="Site criado por Rota"><span>by</span><b class="wm">R<svg viewBox="0 0 40 52" aria-hidden="true"><path fill-rule="evenodd" d="M20 51C8 36 2 28 2 19a18 18 0 0 1 36 0c0 9-6 17-18 32zM20 11a8 8 0 1 0 0 16 8 8 0 0 0 0-16z"/></svg>ta.</b></a>
 
 <div id="app">
   <canvas id="cv" aria-label="Desenho em ASCII de uma sala de atendimento"></canvas>
